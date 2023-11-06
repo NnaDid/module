@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.record_form{
+    display: flex;
+    height: 200px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_left{
+  height: inherit;
+  flex:7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 800;
+  font-size: 12px;
+
+}
+
+.form_right{
+    height: inherit;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#type{
+    padding: 18px;
+}
+
+
+.record_item{ 
+    height: 150px;
+    width: 220px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 4px;
+}
